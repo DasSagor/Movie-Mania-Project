@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <script type="module" src="index.js"></script>
+    <title>Movie Mania</title>
+</head>
+<body>
+    <div class="flex flex-col">
+        <nav class="bg-black text-white p-2 text-center">
+            <h1 class="text-3xl font-bold">Movie Mania</h1>
+        </nav>
+        <div class="flex justify-around p-8">
+            <div class="card text-6xl" id="tMoviesId">
+
+            </div>
+            <div class="card text-6xl" id="tAvgRatingId">
+
+            </div>
+            <div class="card text-6xl" id="tReviewsId">
+
+            </div>
+            
+        </div>
+        <div class="p-4" id="movieListId">
+            <div class="flex">
+                <h2 class="text-2xl">Movie Reviews</h2>
+                <span class="mx-4 mt-[5px]">|</span>
+                <button id="srtBtn">Sort by Rating</button>
+                <span class="mx-4 mt-[5px]">|</span>
+                <button id="grpBtn">Group by Rating</button>
+            </div>
+            
+            <ul class="my-2">
+                <li class="card my-2 p-2">
+                    <p class="text-xl mb-2">Avatar - 2.7</p>
+                    <p class="mb-2 mx-2">Test 1</p>
+                    <p class="mb-2 mx-2">Test 2</p>
+                </li>
+                <li class="card my-2 p-2">
+                    <p class="text-xl mb-2">Avatar - 2.7</p>
+                    <p class="mb-2 mx-2">Test 1</p>
+                    <p class="mb-2 mx-2">Test 2</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
